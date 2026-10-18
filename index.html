@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mileSixTONES | FAN CLUB SIMULATOR</title>
+<style>
+:root{--blue:#65b3c2;--blue-dark:#438f9f;--ink:#292525;--muted:#666;--line:#e6e6e6;--page:#f3f3f3;--white:#fff}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","Yu Gothic",Meiryo,sans-serif}
+button,input,select{font:inherit}
+button{cursor:pointer}
+.header{padding:18px 22px 24px;background:#fff}
+.topbar{display:grid;grid-template-columns:1fr 1fr 1fr;align-items:start;gap:12px}
+.top-action{border:0;background:transparent;color:var(--blue);display:flex;flex-direction:column;align-items:center;gap:6px;padding:0;font-size:14px}
+.top-action svg{width:34px;height:34px;stroke:currentColor;fill:none;stroke-width:2.4}
+.brand{text-align:center;line-height:1}
+.brand strong{display:block;font-size:42px;letter-spacing:-2px;font-weight:700}
+.brand span{display:block;font-size:20px;margin-top:7px;letter-spacing:.2px}
+.app-title{text-align:center;margin:42px 0 8px;font-size:30px;overflow-wrap:anywhere}
+.edit-title{display:block;margin:0 auto;border:0;background:transparent;color:var(--blue);font-size:17px;padding:8px}
+.tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin:18px 0 0}
+.tab{border:0;background:#eee;color:#333;padding:20px 4px 14px;font-size:15px;min-height:70px;border-bottom:5px solid #eee}
+.tab.active{background:#fff;color:var(--blue-dark);font-weight:600;border-bottom-color:#55b0bf}
+main{background:var(--page);padding:28px 20px 40px;min-height:55vh}
+h2{font-size:25px;margin:0 0 22px}
+h3{font-size:19px;margin:0 0 14px}
+.card{background:#fff;border-radius:30px;padding:25px 24px;margin-bottom:18px;box-shadow:0 1px 0 rgba(0,0,0,.015)}
+.status{font-size:20px;line-height:1.5}
+.status strong{color:#c94a42;font-weight:600}
+.rule{border:0;border-top:1px solid #eee;margin:22px 0}
+.details{display:grid;gap:19px;font-size:18px;line-height:1.6;overflow-wrap:anywhere}
+.subtle{font-size:13px;color:#777;line-height:1.6}
+label{display:block;font-size:14px;color:#555;margin:14px 0 7px}
+input,select{width:100%;border:1px solid #d7d7d7;border-radius:7px;padding:12px;background:#fff;color:#222;min-height:44px}
+.btn{width:100%;border:0;border-radius:6px;padding:14px 16px;background:var(--blue-dark);color:#fff;font-weight:600;margin-top:12px}
+.btn.secondary{background:#fff;color:#555;border:1px solid #ccc}
+.btn.danger{background:#fff;color:#a94442;border:1px solid #d8b8b7}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.row{display:flex;gap:12px;align-items:center}
+.row>*{flex:1}
+.event-option{width:100%;text-align:left;border:1px solid #ddd;border-radius:8px;background:#fff;padding:15px;margin:8px 0;color:var(--ink)}
+.event-option.selected{border:2px solid var(--blue);background:#f2fbfd}
+.event-option strong{display:block;margin-bottom:7px}
+.badge{display:inline-block;border-radius:4px;padding:4px 8px;background:#eef5f7;color:#397f8d;font-size:12px}
+.badge.win{background:#fff0ef;color:#c94a42}
+.badge.lose{background:#eee;color:#555}
+.badge.paid{background:#edf7ef;color:#34764c}
+.notice{background:#f3faf5;border:1px solid #b8d8c4;color:#285f3c;border-radius:8px;padding:13px;margin-bottom:18px}
+.empty{text-align:center;padding:35px 12px;color:#666}
+.inline-check{display:flex;align-items:center;gap:10px;margin:14px 0}
+.inline-check input{width:auto;min-height:auto}
+.footer{text-align:center;color:#888;font-size:12px;padding:20px;background:#fff;line-height:1.8}
+details.advanced{border:1px solid #e4e4e4;border-radius:8px;padding:14px;background:#fafafa;margin-top:16px}
+details.advanced summary{cursor:pointer;color:#555;font-size:14px}
+small{color:#777}
+@media(min-width:760px){.header{max-width:1100px;margin:auto;padding-top:26px}.top-action{font-size:17px}.brand strong{font-size:48px}.brand span{font-size:22px}.app-title{font-size:34px;margin-top:50px}.tabs{margin-top:26px}.tab{font-size:20px}main{padding:35px max(30px,calc((100vw - 1020px)/2)) 50px}.card{padding:34px 40px}.details{font-size:21px}.status{font-size:24px}h2{font-size:30px}}
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="topbar">
+    <button class="top-action" id="menuBtn" aria-label="メニュー">
+      <svg viewBox="0 0 40 40"><path d="M4 8h29M4 20h18"/></svg><span>メニュー</span>
+    </button>
+    <div class="brand"><strong>FC</strong><span>FAN CLUB</span></div>
+    <button class="top-action" id="mypageBtn" aria-label="マイページ">
+      <svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="16"/><circle cx="20" cy="14" r="5"/><path d="M10 30c1-6 5-9 10-9s9 3 10 9"/></svg><span>マイページ</span>
+    </button>
+  </div>
+  <h1 class="app-title" id="appTitle">mileSixTONES</h1>
+  <button class="edit-title" id="editTitleBtn">✎ タイトルを編集</button>
+  <nav class="tabs" aria-label="メインメニュー">
+    <button class="tab" data-page="top">トップ</button>
+    <button class="tab" data-page="apply">お申込み</button>
+    <button class="tab active" data-page="confirm">申込確認</button>
+    <button class="tab" data-page="events">イベント管理</button>
+  </nav>
+</header>
+<main id="main"></main>
+<footer class="footer">mileSixTONES · FAN CLUB SIMULATOR<br>非公式のファンメイド試作です。STARTO ENTERTAINMENTおよび各アーティストの公式サービスではありません。<br>表示される公演・倍率・抽選結果はシミュレーション用です。</footer>
+<script>
+(() => {
+  const $ = s => document.querySelector(s);
+  const now = () => new Date();
+  const fmt = v => String(v || '').replace('T',' ');
+  const localInput = d => {
+    const x = new Date(d.getTime()-d.getTimezoneOffset()*60000);
+    return x.toISOString().slice(0,16);
+  };
+  const isoAfter = (days, hour=18) => {
+    const d = new Date(); d.setDate(d.getDate()+days); d.setHours(hour,0,0,0); return localInput(d);
+  };
+  const defaultEvents = [
+    {id:'e1',artist:'SixTONES',event:'MILE SixTONES（スタジアムツアー）',venue:'ヤンマースタジアム長居',date:'2026-11-08 16:30',resultAt:'2026-10-19T18:00',cancelDeadline:'2026-10-25T23:59',odds:4},
+    {id:'e2',artist:'SixTONES',event:'MILE SixTONES（スタジアムツアー）',venue:'味の素スタジアム',date:'2026-11-14 17:00',resultAt:'2026-10-19T18:00',cancelDeadline:'2026-10-25T23:59',odds:5},
+    {id:'e3',artist:'SixTONES',event:'MILE SixTONES（スタジアムツアー）',venue:'日産スタジアム',date:'2026-11-21 17:00',resultAt:'2026-10-19T18:00',cancelDeadline:'2026-10-25T23:59',odds:5}
+  ];
+  const load = (key, fallback) => { try { const v=localStorage.getItem(key); return v?JSON.parse(v):fallback; } catch { return fallback; } };
+  let events = load('mile.events', defaultEvents);
+  let apps = load('mile.apps', [{
+    id:'12966769',artist:'SixTONES',event:'MILE SixTONES（スタジアムツアー）',venue:'ヤンマースタジアム長居',
+    date:'2026-11-08 16:30',people:1,wishes:[{venue:'ヤンマースタジアム長居',date:'2026-11-08 16:30'}],
+    result:null,wish:null,resultVenue:null,resultDate:null,paid:false,cancelled:false,
+    cancelDeadline:'2026-10-25T23:59',resultAt:'2026-10-19T18:00',odds:4
+  }]);
+  let page='confirm', selected='e1', artist='SixTONES', query='', people='1', w2=false, w3=false;
+  let titleText=load('mile.title','mileSixTONES');
+  let nextId=Number(load('mile.nextId',12966770));
+  let notice='';
+  let editEventId=null;
+  const save = () => {
+    localStorage.setItem('mile.events',JSON.stringify(events));
+    localStorage.setItem('mile.apps',JSON.stringify(apps));
+    localStorage.setItem('mile.title',JSON.stringify(titleText));
+    localStorage.setItem('mile.nextId',JSON.stringify(nextId));
+  };
+  const escapeHTML = s => String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const getEvent = id => events.find(e=>e.id===id) || events[0];
+  const button = (label,action,cls='btn') => `<button class="${cls}" data-action="${action}">${label}</button>`;
+  const eventSelectHTML = () => {
+    const list=events.filter(e=>(artist==='その他'||e.artist===artist)&&(`${e.artist} ${e.event} ${e.venue}`).toLowerCase().includes(query.toLowerCase()));
+    if(!list.length) return '<p class="empty">公演が見つかりません。検索条件を変更するか、イベント管理から追加してください。</p>';
+    return list.map(e=>`<button class="event-option ${e.id===selected?'selected':''}" data-select-event="${e.id}"><strong>${escapeHTML(e.event)}</strong><span>${escapeHTML(e.venue)}</span><br><small>${escapeHTML(e.date)}</small></button>`).join('');
+  };
+  function render() {
+    $('#appTitle').textContent=titleText;
+    document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.page===page));
+    const main=$('#main');
+    if(page==='top'){
+      main.innerHTML=`<h2>トップ</h2><section class="card"><h3>ようこそ、${escapeHTML(titleText)}へ</h3><p>公演情報の確認やお申込み状況をご確認いただけます。</p>${button('公演を探す・お申込み','goto-apply')}${button('申込確認','goto-confirm','btn secondary')}</section><h3>公演情報</h3>${events.slice(0,3).map(e=>`<button class="event-option" data-open-event="${e.id}"><strong>${escapeHTML(e.event)}</strong>${escapeHTML(e.venue)}<br><small>${escapeHTML(e.date)}</small></button>`).join('')}`;
+    } else if(page==='apply'){
+      const e=getEvent(selected);
+      main.innerHTML=`<h2>お申込み</h2><section class="card"><h3>公演を選択</h3><label>アーティスト</label><select id="artistSelect"><option>SixTONES</option><option>Snow Man</option><option>なにわ男子</option><option>その他</option></select><label>公演・会場を検索</label><input id="queryInput" value="${escapeHTML(query)}" placeholder="公演名・会場名"><div id="eventList">${eventSelectHTML()}</div>${e?`<hr class="rule"><h3>申込内容</h3><div class="details"><div>イベント：${escapeHTML(e.event)}</div><div>希望会場：${escapeHTML(e.venue)}</div><div>希望日時：${escapeHTML(e.date)}</div></div><label>参加希望人数</label><select id="peopleSelect">${[1,2,3,4].map(n=>`<option value="${n}" ${String(n)===people?'selected':''}>${n}人</option>`).join('')}</select><h3 style="margin-top:22px">希望順位</h3><div class="inline-check"><input type="checkbox" id="w2" ${w2?'checked':''}><label for="w2" style="margin:0">第2希望も申し込む</label></div>${w2?`<p>第2希望：${escapeHTML(events.find(x=>x.id!==e.id&&x.artist===artist)?.venue||'別会場（未登録）')}</p><div class="inline-check"><input type="checkbox" id="w3" ${w3?'checked':''}><label for="w3" style="margin:0">第3希望も申し込む</label></div>`:''}${w2&&w3?`<p>第3希望：${escapeHTML(events.filter(x=>x.id!==e.id&&x.artist===artist)[1]?.venue||'別会場（未登録）')}</p>`:''}<hr class="rule"><div class="details"><div>抽選結果発表：${escapeHTML(fmt(e.resultAt))}</div><div>申込取消期限：${escapeHTML(fmt(e.cancelDeadline))}</div></div>${button('この内容で申し込む','submit-app')}</section><p class="subtle">公演情報はサンプルです。実際の公式サービスへの申込は行われません。</p>`:''}`;
+      $('#artistSelect').value=artist;
+    } else if(page==='confirm'){
+      main.innerHTML=`<h2>申込確認</h2>${notice?`<div class="notice">${escapeHTML(notice)}</div>`:''}${apps.length?apps.map(a=>{
+        const status=a.cancelled?'申込取消済み':a.result==='win'?'抽選結果ご案内中（当選）':a.result==='lose'?'抽選結果ご案内中（落選）':'抽選結果発表待ち';
+        const color=a.result==='win'?'win':a.result==='lose'?'lose':'';
+        const resultReady=now()>=new Date(a.resultAt);
+        const cancelAllowed=!a.cancelled&&!a.result&&now()<=new Date(a.cancelDeadline);
+        return `<section class="card"><div class="status">状態：<strong class="${color}">${escapeHTML(status)}</strong></div><hr class="rule"><div class="details"><div>整理番号：${escapeHTML(a.id)}</div><div>イベント：${escapeHTML(a.event)}</div><div>希望会場：${escapeHTML(a.venue)}</div><div>希望日時：${escapeHTML(a.date)}</div><div>参加希望人数：${a.people}</div></div>${a.wishes?.length>1?`<hr class="rule"><div class="subtle">希望順位：${a.wishes.map((w,i)=>`第${i+1}希望 ${escapeHTML(w.venue)}（${escapeHTML(w.date)}）`).join(' ／ ')}</div>`:''}${a.result==='win'&&!a.cancelled?`<hr class="rule"><div class="details"><div>当選希望：第${a.wish||1}希望当選</div><div>当選会場：${escapeHTML(a.resultVenue||a.venue)}</div><div>当選日時：${escapeHTML(a.resultDate||a.date)}</div></div>${a.paid?'<p class="badge paid">ご入金を確認しました</p>':button('入金する（デモ）',`pay:${a.id}`)}`:''}${a.result==='lose'&&!a.cancelled?'<p class="subtle">今回はご希望に添えない結果となりました。</p>':''}${!a.result&&!a.cancelled?(resultReady?button('抽選結果を確認する',`draw:${a.id}`):`<p class="subtle">抽選結果発表日時：${escapeHTML(fmt(a.resultAt))}<br>発表日時以降に結果を確認できます。</p>`):''}${cancelAllowed?button('申込を取り消す',`cancel:${a.id}`,'btn danger'):''}${a.cancelled?'<p class="subtle">この申込は取り消されています。</p>':''}</section>`;
+      }).join(''):'<section class="card empty">現在、お申込みはありません。'+button('お申込みはこちら','goto-apply')+'</section>'}<p class="subtle">※ デモ用の当落・入金操作です。実際のチケット申込や決済は行われません。</p>`;
+    } else if(page==='events'){
+      main.innerHTML=`<h2>イベント管理</h2><section class="card"><h3>登録済みイベント</h3>${events.map(e=>`<div class="event-option"><strong>${escapeHTML(e.event)}</strong>${escapeHTML(e.artist)} · ${escapeHTML(e.venue)}<br><small>${escapeHTML(e.date)}</small><div class="row">${button('編集・倍率設定',`edit-event:${e.id}`,'btn secondary')}${button('申込画面へ',`choose-event:${e.id}`)}</div>${editEventId===e.id?`<div class="editor"><label>イベント名</label><input id="editName" value="${escapeHTML(e.event)}"><label>アーティスト</label><select id="editArtist">${['SixTONES','Snow Man','なにわ男子','その他'].map(x=>`<option ${x===e.artist?'selected':''}>${x}</option>`).join('')}</select><label>会場名</label><input id="editVenue" value="${escapeHTML(e.venue)}"><label>公演日時</label><input id="editDate" value="${escapeHTML(e.date)}"><label>結果発表日時</label><input id="editResult" type="datetime-local" value="${escapeHTML(e.resultAt)}"><label>申込取消期限</label><input id="editCancel" type="datetime-local" value="${escapeHTML(e.cancelDeadline)}"><label>基準倍率</label><input id="editOdds" type="number" min="1" step=".1" value="${e.odds||4}"><details class="advanced"><summary>詳細設定：SNS件数から倍率を推定</summary><label>当選報告件数（手入力）</label><input id="socialWins" type="number" min="0" value="800"><label>落選報告件数（手入力）</label><input id="socialLosses" type="number" min="0" value="3200"><p class="subtle">投稿件数は実際の応募者数ではありません。報告する人の偏りや重複があるため、参考値として扱います。</p>${button('SNS推定倍率を計算','calc-odds')}</details>${button('変更を保存',`save-event:${e.id}`)}${button('イベントを削除',`delete-event:${e.id}`,'btn danger')}</div>`:''}</div>`).join('')}</section><section class="card"><h3>イベントを追加</h3><label>アーティスト</label><select id="newArtist">${['SixTONES','Snow Man','なにわ男子','その他'].map(x=>`<option>${x}</option>`).join('')}</select><label>イベント名</label><input id="newEvent" placeholder="例：LIVE TOUR 2027"><label>会場名</label><input id="newVenue" placeholder="例：東京ドーム"><label>公演日時</label><input id="newDate" placeholder="YYYY-MM-DD HH:mm"><label>結果発表日時</label><input id="newResult" type="datetime-local" value="${isoAfter(14)}"><label>申込取消期限</label><input id="newCancel" type="datetime-local" value="${isoAfter(7,23)}">${button('イベントを登録する','add-event')}</section><section class="card"><h3>外部データ連携</h3><p class="subtle">公式イベント情報の自動取得・X検索は未接続です。公開APIの有無、認証、利用規約を確認してから連携します。ここに入力した件数はSNSの実検索結果ではありません。</p></section>`;
+    }
+    bindInputs();
+    save();
+  }
+  function bindInputs(){
+    const artistSelect=$('#artistSelect'); if(artistSelect) artistSelect.onchange=e=>{artist=e.target.value;const found=events.find(x=>x.artist===artist);if(found)selected=found.id;render()};
+    const q=$('#queryInput'); if(q) q.oninput=e=>{query=e.target.value;const list=$('#eventList');if(list)list.innerHTML=eventSelectHTML();bindEventButtons()};
+    const ps=$('#peopleSelect'); if(ps) ps.onchange=e=>people=e.target.value;
+    const two=$('#w2'); if(two)two.onchange=e=>{w2=e.target.checked;if(!w2)w3=false;render()};
+    const three=$('#w3'); if(three)three.onchange=e=>{w3=e.target.checked;render()};
+    bindEventButtons();
+  }
+  function bindEventButtons(){
+    document.querySelectorAll('[data-select-event]').forEach(b=>b.onclick=()=>{selected=b.dataset.selectEvent;render()});
+    document.querySelectorAll('[data-open-event]').forEach(b=>b.onclick=()=>{selected=b.dataset.openEvent;page='apply';render()});
+  }
+  document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{page=b.dataset.page;notice='';render()});
+  $('#editTitleBtn').onclick=()=>{const v=prompt('タイトルを編集',titleText);if(v&&v.trim()){titleText=v.trim();save();render()}};
+  $('#menuBtn').onclick=()=>{page=page==='top'?'confirm':'top';render()};
+  $('#mypageBtn').onclick=()=>{notice='マイページは試作段階です。';render()};
+  $('#main').addEventListener('click',e=>{
+    const b=e.target.closest('[data-action]'); if(!b)return;
+    const action=b.dataset.action;
+    if(action==='goto-apply'){page='apply';notice='';render();return}
+    if(action==='goto-confirm'){page='confirm';render();return}
+    if(action==='submit-app'){
+      const ev=getEvent(selected);if(!ev){notice='公演を選択してください。';render();return}
+      const others=events.filter(x=>x.id!==ev.id&&x.artist===artist);
+      const wishes=[{venue:ev.venue,date:ev.date},...(w2?[{venue:others[0]?.venue||'第2希望会場',date:others[0]?.date||ev.date}]:[]),...(w2&&w3?[{venue:others[1]?.venue||'第3希望会場',date:others[1]?.date||ev.date}]:[])];
+      apps.unshift({id:String(nextId++),artist,event:ev.event,venue:ev.venue,date:ev.date,people:Number(people),wishes,result:null,wish:null,resultVenue:null,resultDate:null,paid:false,cancelled:false,cancelDeadline:ev.cancelDeadline,resultAt:ev.resultAt,odds:Number(ev.odds)||4});
+      notice='お申込みを受け付けました。整理番号：'+apps[0].id;page='confirm';render();return;
+    }
+    if(action.startsWith('draw:')){
+      const id=action.split(':')[1],a=apps.find(x=>x.id===id);if(!a||a.result||a.cancelled)return;
+      if(now()<new Date(a.resultAt)){notice='結果発表日時より前のため、まだ確認できません。';render();return}
+      let winner=null;for(let i=0;i<a.wishes.length;i++){if(Math.random()<1/Math.max(1.01,Number(a.odds)||4)){winner=i;break}}
+      const w=winner===null?null:a.wishes[winner];
+      apps=apps.map(x=>x.id===id?{...x,result:w?'win':'lose',wish:winner===null?null:winner+1,resultVenue:w?.venue||null,resultDate:w?.date||null}:x);
+      notice='抽選結果を確定しました。結果は保存され、再抽選されません。';render();return;
+    }
+    if(action.startsWith('pay:')){
+      const id=action.split(':')[1];apps=apps.map(x=>x.id===id&&x.result==='win'&&!x.cancelled?{...x,paid:true}:x);notice='ご入金を確認しました（デモ）。';render();return;
+    }
+    if(action.startsWith('cancel:')){
+      const id=action.split(':')[1],a=apps.find(x=>x.id===id);if(!a)return;
+      if(now()>new Date(a.cancelDeadline)||a.result){notice='取消期限を過ぎているか、結果確定済みのため取消できません。';render();return}
+      if(confirm('この申込を取り消しますか？')){apps=apps.map(x=>x.id===id?{...x,cancelled:true}:x);notice='申込を取り消しました。';render()}return;
+    }
+    if(action.startsWith('choose-event:')){selected=action.split(':')[1];page='apply';render();return}
+    if(action.startsWith('edit-event:')){editEventId=action.split(':')[1];render();return}
+    if(action.startsWith('save-event:')){
+      const id=action.split(':')[1],ev=events.find(x=>x.id===id);if(!ev)return;
+      ev.event=$('#editName').value.trim()||ev.event;ev.artist=$('#editArtist').value;ev.venue=$('#editVenue').value.trim()||ev.venue;ev.date=$('#editDate').value.trim()||ev.date;ev.resultAt=$('#editResult').value;ev.cancelDeadline=$('#editCancel').value;ev.odds=Math.max(1,Number($('#editOdds').value)||4);
+      editEventId=null;notice='イベント情報を保存しました。';render();return;
+    }
+    if(action==='calc-odds'){
+      const w=Number($('#socialWins').value),l=Number($('#socialLosses').value),base=Number($('#editOdds').value)||4;
+      if(w<0||l<0||w+l===0){alert('件数を正しく入力してください');return}
+      const social=(w+l)/Math.max(1,w);
+      $('#editOdds').value=Math.min(30,Math.max(1.2,base*.65+social*.35)).toFixed(1);
+      notice='SNS報告件数を使った参考倍率を計算しました。保存するには「変更を保存」を押してください。';render();return;
+    }
+    if(action.startsWith('delete-event:')){
+      const id=action.split(':')[1];if(confirm('このイベントを削除しますか？')){events=events.filter(x=>x.id!==id);if(selected===id)selected=events[0]?.id;editEventId=null;notice='イベントを削除しました。';render()}return;
+    }
+    if(action==='add-event'){
+      const event=$('#newEvent').value.trim(),venue=$('#newVenue').value.trim();
+      if(!event||!venue){alert('イベント名と会場名を入力してください。');return}
+      const id='e'+Date.now();events.push({id,artist:$('#newArtist').value,event,venue,date:$('#newDate').value.trim()||'日時未設定',resultAt:$('#newResult').value,cancelDeadline:$('#newCancel').value,odds:4});
+      selected=id;notice='イベントを登録しました。';render();return;
+    }
+  });
+  render();
+})();
+</script>
+</body>
+</html>
