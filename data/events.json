@@ -1,94 +1,438 @@
 {
-  "updatedAt": "2026-10-18T04:35:30.622153+00:00",
-  "source": "https://starto.jp/s/p/live?ima=2112",
+  "updatedAt": "2026-10-18T04:58:57.201738+00:00",
+  "source": "https://starto.jp/s/p/live",
   "events": [
     {
-      "event": "2026.12.12 - 2027.01.12 CONCERT Hey! Say! JUMP DOME TOUR 2026-2027 Juliet Hey! Say! JUMP",
-      "artist": "",
+      "event": "2026.12.12 -",
+      "artist": "Hey! Say! JUMP DOME TOUR 2026-2027 Juliet Hey! Say! JUMP",
       "venue": "",
-      "dateRange": "2026.12.12 - 2027.01.12",
-      "url": "https://starto.jp/s/p/live/10602?ima=3513&artist=",
-      "source": "https://starto.jp/s/p/live?ima=2112"
+      "dateRange": "2027.01.12",
+      "category": "concert",
+      "url": "https://starto.jp/s/p/live/10602",
+      "source": "https://starto.jp/s/p/live?ct=concert"
     },
     {
-      "event": "2026.12.31 - 2027.01.01 CONCERT COUNTDOWN CONCERT 2026-2027 STARTO to WORLD",
-      "artist": "",
+      "event": "2026.12.31 -",
+      "artist": "COUNTDOWN CONCERT 2026-2027 STARTO to WORLD",
       "venue": "",
-      "dateRange": "2026.12.31 - 2027.01.01",
-      "url": "https://starto.jp/s/p/live/10596?ima=3513&artist=",
-      "source": "https://starto.jp/s/p/live?ima=2112"
+      "dateRange": "2027.01.01",
+      "category": "concert",
+      "url": "https://starto.jp/s/p/live/10596",
+      "source": "https://starto.jp/s/p/live?ct=concert"
     },
     {
-      "event": "2026.12.25 - 2027.02.23 CONCERT Kis-My-Ft2 DOME TOUR 2026-2027 fan IS・・・・・・ Kis-My-Ft2",
-      "artist": "",
+      "event": "2026.12.25 -",
+      "artist": "Kis-My-Ft2 DOME TOUR 2026-2027 fan IS・・・・・・ Kis-My-Ft2",
       "venue": "",
-      "dateRange": "2026.12.25 - 2027.02.23",
-      "url": "https://starto.jp/s/p/live/10594?ima=3513&artist=",
-      "source": "https://starto.jp/s/p/live?ima=2112"
+      "dateRange": "2027.02.23",
+      "category": "concert",
+      "url": "https://starto.jp/s/p/live/10594",
+      "source": "https://starto.jp/s/p/live?ct=concert"
     },
     {
-      "event": "2026.10.31 - 2026.11.01 CONCERT KAMIGATA EXPO PARK FES 2026 SUPER EIGHT なにわ男子 Aぇ! group 関西ジュニア",
-      "artist": "",
+      "event": "2026.10.31 -",
+      "artist": "KAMIGATA EXPO PARK FES 2026 SUPER EIGHT なにわ男子 Aぇ! group 関西ジュニア",
       "venue": "",
-      "dateRange": "2026.10.31 - 2026.11.01",
-      "url": "https://starto.jp/s/p/live/10587?ima=3513&artist=",
-      "source": "https://starto.jp/s/p/live?ima=2112"
+      "dateRange": "2026.11.01",
+      "category": "concert",
+      "url": "https://starto.jp/s/p/live/10587",
+      "source": "https://starto.jp/s/p/live?ct=concert"
     },
     {
-      "event": "2026.10.30 - 2027.01.07 CONCERT Snow Man DOME TOUR 2026-2027 ALL SUITE Snow Man",
-      "artist": "",
+      "event": "2026.10.30 -",
+      "artist": "Snow Man DOME TOUR 2026-2027 ALL SUITE Snow Man",
       "venue": "",
-      "dateRange": "2026.10.30 - 2027.01.07",
-      "url": "https://starto.jp/s/p/live/10578?ima=3513&artist=",
-      "source": "https://starto.jp/s/p/live?ima=2112"
+      "dateRange": "2027.01.07",
+      "category": "concert",
+      "url": "https://starto.jp/s/p/live/10578",
+      "source": "https://starto.jp/s/p/live?ct=concert"
     },
     {
-      "event": "2026.11.14 - 2026.11.28 CONCERT ATSUHIRO Live Third! ～Yellow Kiss 2026 by BBL～ 佐藤アツヒロ",
-      "artist": "",
+      "event": "2026.11.14 -",
+      "artist": "ATSUHIRO Live Third! ～Yellow Kiss 2026 by BBL～ 佐藤アツヒロ",
       "venue": "",
-      "dateRange": "2026.11.14 - 2026.11.28",
-      "url": "https://starto.jp/s/p/live/10569?ima=3513&artist=",
-      "source": "https://starto.jp/s/p/live?ima=2112"
+      "dateRange": "2026.11.28",
+      "category": "concert",
+      "url": "https://starto.jp/s/p/live/10569",
+      "source": "https://starto.jp/s/p/live?ct=concert"
     },
     {
-      "event": "2026.10.14 - 2026.11.24 CONCERT A.B.C-Z Concert Tour 2026 The Way of L.O.V-E A.B.C-Z",
-      "artist": "",
+      "event": "2026.10.14 -",
+      "artist": "A.B.C-Z Concert Tour 2026 The Way of L.O.V-E A.B.C-Z",
       "venue": "",
-      "dateRange": "2026.10.14 - 2026.11.24",
-      "url": "https://starto.jp/s/p/live/10565?ima=3513&artist=",
-      "source": "https://starto.jp/s/p/live?ima=2112"
+      "dateRange": "2026.11.24",
+      "category": "concert",
+      "url": "https://starto.jp/s/p/live/10565",
+      "source": "https://starto.jp/s/p/live?ct=concert"
     },
     {
-      "event": "2026.09.05 - 2026.11.23 CONCERT TAKUYA KIMURA Live Tour 2026 Checkpoint 木村拓哉",
-      "artist": "",
+      "event": "2026.09.05 -",
+      "artist": "TAKUYA KIMURA Live Tour 2026 Checkpoint 木村拓哉",
       "venue": "",
-      "dateRange": "2026.09.05 - 2026.11.23",
-      "url": "https://starto.jp/s/p/live/10520?ima=3513&artist=",
-      "source": "https://starto.jp/s/p/live?ima=2112"
+      "dateRange": "2026.11.23",
+      "category": "concert",
+      "url": "https://starto.jp/s/p/live/10520",
+      "source": "https://starto.jp/s/p/live?ct=concert"
     },
     {
-      "event": "2026.08.01 - 2026.10.28 CONCERT NEWS LIVE TOUR 2026 /// KMK NEWS",
-      "artist": "",
+      "event": "2026.08.01 -",
+      "artist": "NEWS LIVE TOUR 2026 /// KMK NEWS",
       "venue": "",
-      "dateRange": "2026.08.01 - 2026.10.28",
-      "url": "https://starto.jp/s/p/live/10507?ima=3513&artist=",
-      "source": "https://starto.jp/s/p/live?ima=2112"
+      "dateRange": "2026.10.28",
+      "category": "concert",
+      "url": "https://starto.jp/s/p/live/10507",
+      "source": "https://starto.jp/s/p/live?ct=concert"
     },
     {
-      "event": "2026.09.19 - 2026.11.22 CONCERT MILESixTONES（スタジアムツアー） SixTONES",
-      "artist": "",
+      "event": "2026.09.19 -",
+      "artist": "MILESixTONES（スタジアムツアー） SixTONES",
       "venue": "",
-      "dateRange": "2026.09.19 - 2026.11.22",
-      "url": "https://starto.jp/s/p/live/10499?ima=3513&artist=",
-      "source": "https://starto.jp/s/p/live?ima=2112"
+      "dateRange": "2026.11.22",
+      "category": "concert",
+      "url": "https://starto.jp/s/p/live/10499",
+      "source": "https://starto.jp/s/p/live?ct=concert"
     },
     {
-      "event": "2026.07.11 - 2026.10.28 CONCERT なにわ男子 LIVE TOUR 2026 「ND⁵」 なにわ男子",
+      "event": "2026.07.11 -",
+      "artist": "なにわ男子 LIVE TOUR 2026 「ND⁵」 なにわ男子",
+      "venue": "",
+      "dateRange": "2026.10.28",
+      "category": "concert",
+      "url": "https://starto.jp/s/p/live/10489",
+      "source": "https://starto.jp/s/p/live?ct=concert"
+    },
+    {
+      "event": "2026.12.23 -",
+      "artist": "Reading Act『スクルージと呼ばれた男2026』 出演：松本幸大",
+      "venue": "",
+      "dateRange": "2026.12.27",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10610",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.12.02 -",
+      "artist": "蒲田行進曲 出演：松本幸大",
+      "venue": "",
+      "dateRange": "2026.12.06",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10609",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.12.19 -",
+      "artist": "READING HIGH noir『THANATOS～タナトス～』 出演：相葉雅紀",
+      "venue": "",
+      "dateRange": "2026.12.20",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10607",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2027.02.04 -",
+      "artist": "銀行強盗！間違えた!? 主演：戸塚祥太",
+      "venue": "",
+      "dateRange": "2027.02.14",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10598",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2027.01.08 -",
+      "artist": "ベルナール/ハムレット 出演：五関晃一",
+      "venue": "",
+      "dateRange": "2027.01.31",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10605",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.12.06 STAGE 河合郁人の拍手歌祭 出演：河合郁人",
       "artist": "",
       "venue": "",
-      "dateRange": "2026.07.11 - 2026.10.28",
-      "url": "https://starto.jp/s/p/live/10489?ima=3513&artist=",
-      "source": "https://starto.jp/s/p/live?ima=2112"
+      "dateRange": "",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10599",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.11.29 STAGE アニマックス朗読劇「逆転裁判Re:1」 出演：宮田俊哉",
+      "artist": "",
+      "venue": "",
+      "dateRange": "",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10604",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.11.28 -",
+      "artist": "Endless SHOCK Memories -CONTINUE- 構成・演出・主演 堂本光一 出演： 上田竜也 佐藤勝利 福田悠太 辰巳雄大 越岡裕貴 松崎祐介 寺西拓人 原嘉孝 室龍太 高田翔 野澤祐樹",
+      "venue": "",
+      "dateRange": "2027.02.21",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10593",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.12.28 -",
+      "artist": "「ENTA！9」 4U. ZEPP in de SHOW 主演：ふぉ～ゆ～（福田悠太 辰巳雄大 越岡裕貴 松崎祐介）",
+      "venue": "",
+      "dateRange": "2027.01.12",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10591",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2027.01.15 -",
+      "artist": "ミュージカル『三銃士：Reborn』 主演：上田竜也 出演：草間リチャード敬太 林翔太 今江大地 内博貴 内海光司",
+      "venue": "",
+      "dateRange": "2027.02.26",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10584",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2027.01 - 2027.03 STAGE ステージ 主演：安田章大",
+      "artist": "",
+      "venue": "",
+      "dateRange": "",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10583",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.12.23 -",
+      "artist": "音楽劇『歌え！センシマン！』 主演：室龍太",
+      "venue": "",
+      "dateRange": "2026.12.27",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10582",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.11.28 -",
+      "artist": "昭和歌謡劇「歌の銀座パラダイス♪」 出演：藤井直樹",
+      "venue": "",
+      "dateRange": "2026.12.06",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10574",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.11.06 -",
+      "artist": "グレンギャリー・グレンロス ダブル主演：濵田崇裕",
+      "venue": "",
+      "dateRange": "2026.12.11",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10573",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2027.01.15 -",
+      "artist": "黒蜥蜴 出演：野澤祐樹",
+      "venue": "",
+      "dateRange": "2027.01.17",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10502",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.11.03 -",
+      "artist": "百鬼夜鏡 演出：堂本光一 出演：松崎祐介 戸塚祥太 薮宏太",
+      "venue": "",
+      "dateRange": "2026.11.26",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10570",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.09.18 -",
+      "artist": "スクラップ アンド コーラス -君が灯したメロディー- 主演：八乙女光",
+      "venue": "",
+      "dateRange": "2026.10.25",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10568",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.10.28 -",
+      "artist": "THE RE:BORN CHASING DISCOTHEQUE LIVE 出演：草間リチャード敬太",
+      "venue": "",
+      "dateRange": "2026.10.30",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10567",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.10.29 -",
+      "artist": "室三兄弟舞台『ムロ家のアカンタレ』 出演：室龍太",
+      "venue": "",
+      "dateRange": "2026.11.15",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10560",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.11.06 -",
+      "artist": "ロックンロール 主演：小瀧望",
+      "venue": "",
+      "dateRange": "2026.12.06",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10554",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.10.11 -",
+      "artist": "兄おとうと 出演：岡本圭人",
+      "venue": "",
+      "dateRange": "2026.11.03",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10558",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.09.28 -",
+      "artist": "髪結いの亭主 主演：安田章大",
+      "venue": "",
+      "dateRange": "2026.11.20",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10547",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.10.13 -",
+      "artist": "世界の終わりかけとスリーコード 主演：井ノ原快彦",
+      "venue": "",
+      "dateRange": "2026.11.15",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10542",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.10.06 -",
+      "artist": "ノッキンオン・ロックドドア THE STAGE 主演：上田竜也 川島如恵留",
+      "venue": "",
+      "dateRange": "2026.11.10",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10539",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.09.27 -",
+      "artist": "water 主演：丸山隆平",
+      "venue": "",
+      "dateRange": "2026.11.10",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10536",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.10.22 -",
+      "artist": "THE TOMORROW BOX 〜びっくり箱〜 出演：冨岡健翔",
+      "venue": "",
+      "dateRange": "2026.10.25",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10537",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.09.11 -",
+      "artist": "朗読会『葉葉葉』-裸足であがる- 作・演出・出演：戸塚祥太",
+      "venue": "",
+      "dateRange": "2026.12.22",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10525",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.10.03 -",
+      "artist": "リーディングドラマ「すぐ死ぬんだから」 出演：長野博",
+      "venue": "",
+      "dateRange": "2026.10.31",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10518",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.09.08 -",
+      "artist": "ミュージカル『ファニー・ガール』 出演：坂本昌行",
+      "venue": "",
+      "dateRange": "2026.11.15",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10492",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.10.24 -",
+      "artist": "メイユール・ソワレ～最高の夜公演～ 主演：越岡裕貴",
+      "venue": "",
+      "dateRange": "2026.11.08",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10488",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2026.10.16 -",
+      "artist": "ミュージカル『ミス・サイゴン』 出演：桐山照史",
+      "venue": "",
+      "dateRange": "2027.01.24",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10353",
+      "source": "https://starto.jp/s/p/live?ct=stage"
+    },
+    {
+      "event": "2027.03.12 EVENT BREAKERZ LIVE 2027 -VS- A.B.C-Z",
+      "artist": "",
+      "venue": "",
+      "dateRange": "",
+      "category": "event",
+      "url": "https://starto.jp/s/p/live/10597",
+      "source": "https://starto.jp/s/p/live?ct=event"
+    },
+    {
+      "event": "2026.12.08 -",
+      "artist": "CHOI集会 〜ごちそうさま〜 全国!? Zeppツアー in クリスマス 2026 小山慶一郎",
+      "venue": "",
+      "dateRange": "2026.12.25",
+      "category": "event",
+      "url": "https://starto.jp/s/p/live/10585",
+      "source": "https://starto.jp/s/p/live?ct=event"
+    },
+    {
+      "event": "2026.11.12 EVENT 5th Anniversary なにわ男子とふぁむmeeting なにわ男子",
+      "artist": "",
+      "venue": "",
+      "dateRange": "",
+      "category": "event",
+      "url": "https://starto.jp/s/p/live/10577",
+      "source": "https://starto.jp/s/p/live?ct=event"
+    },
+    {
+      "event": "2026.10.12 -",
+      "artist": "U.T.O.T.A.K.U YUTO NAKAJIMA ～Fan meeting 2026～ 中島裕翔",
+      "venue": "",
+      "dateRange": "2026.11.29",
+      "category": "event",
+      "url": "https://starto.jp/s/p/live/10561",
+      "source": "https://starto.jp/s/p/live?ct=event"
+    },
+    {
+      "event": "2026.10.22 EVENT 超・質疑応答3 誕生祭でおいしいパスタを食べないかい？ 河合郁人",
+      "artist": "",
+      "venue": "",
+      "dateRange": "",
+      "category": "event",
+      "url": "https://starto.jp/s/p/live/10555",
+      "source": "https://starto.jp/s/p/live?ct=event"
+    },
+    {
+      "event": "2026.06.17 -",
+      "artist": "SixTONES STock SixTONES",
+      "venue": "",
+      "dateRange": "2026.12.27",
+      "category": "event",
+      "url": "https://starto.jp/s/p/live/10532",
+      "source": "https://starto.jp/s/p/live?ct=event"
     }
   ]
 }
