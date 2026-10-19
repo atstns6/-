@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T04:58:57.201738+00:00",
+  "updatedAt": "2026-10-19T03:27:02.354019+00:00",
   "source": "https://starto.jp/s/p/live",
   "events": [
     {
@@ -100,6 +100,15 @@
       "category": "concert",
       "url": "https://starto.jp/s/p/live/10489",
       "source": "https://starto.jp/s/p/live?ct=concert"
+    },
+    {
+      "event": "2027.01.24 -",
+      "artist": "じょうのにちじょう2 構成・演出／出演：藤原丈一郎",
+      "venue": "",
+      "dateRange": "2027.02.27",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10603",
+      "source": "https://starto.jp/s/p/live?ct=stage"
     },
     {
       "event": "2026.12.23 -",
