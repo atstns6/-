@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T03:27:02.354019+00:00",
+  "updatedAt": "2026-10-19T06:36:11.317689+00:00",
   "source": "https://starto.jp/s/p/live",
   "events": [
     {
@@ -100,6 +100,15 @@
       "category": "concert",
       "url": "https://starto.jp/s/p/live/10489",
       "source": "https://starto.jp/s/p/live?ct=concert"
+    },
+    {
+      "event": "2027.02.10 -",
+      "artist": "ミュージカル『モーツァルト！』 主演：京本大我 (トリプルキャスト)",
+      "venue": "",
+      "dateRange": "2027.03.25",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10608",
+      "source": "https://starto.jp/s/p/live?ct=stage"
     },
     {
       "event": "2027.01.24 -",
