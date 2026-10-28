@@ -1,7 +1,16 @@
 {
-  "updatedAt": "2026-10-25T15:22:12.942707+00:00",
+  "updatedAt": "2026-10-28T09:41:32.508623+00:00",
   "source": "https://starto.jp/s/p/live",
   "events": [
+    {
+      "event": "2026.12.31 -",
+      "artist": "なにわ男子 DOME LIVE 2026-2027 「ND⁵⁺」 ～あけおめぇ 初夢ぇ Stay with MEE～ なにわ男子",
+      "venue": "",
+      "dateRange": "2027.01.16",
+      "category": "concert",
+      "url": "https://starto.jp/s/p/live/10617",
+      "source": "https://starto.jp/s/p/live?ct=concert"
+    },
     {
       "event": "2026.12.12 -",
       "artist": "Hey! Say! JUMP DOME TOUR 2026-2027 Juliet Hey! Say! JUMP",
