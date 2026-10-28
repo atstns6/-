@@ -1,7 +1,16 @@
 {
-  "updatedAt": "2026-10-28T09:41:32.508623+00:00",
+  "updatedAt": "2026-10-28T15:44:13.282017+00:00",
   "source": "https://starto.jp/s/p/live",
   "events": [
+    {
+      "event": "2027.01.04 -",
+      "artist": "Travis Japan Concert Tour 2027 Jewelry Basket Travis Japan",
+      "venue": "",
+      "dateRange": "2027.05.23",
+      "category": "concert",
+      "url": "https://starto.jp/s/p/live/10616",
+      "source": "https://starto.jp/s/p/live?ct=concert"
+    },
     {
       "event": "2026.12.31 -",
       "artist": "なにわ男子 DOME LIVE 2026-2027 「ND⁵⁺」 ～あけおめぇ 初夢ぇ Stay with MEE～ なにわ男子",
@@ -84,30 +93,12 @@
       "source": "https://starto.jp/s/p/live?ct=concert"
     },
     {
-      "event": "2026.08.01 -",
-      "artist": "NEWS LIVE TOUR 2026 /// KMK NEWS",
-      "venue": "",
-      "dateRange": "2026.10.28",
-      "category": "concert",
-      "url": "https://starto.jp/s/p/live/10507",
-      "source": "https://starto.jp/s/p/live?ct=concert"
-    },
-    {
       "event": "2026.09.19 -",
       "artist": "MILESixTONES（スタジアムツアー） SixTONES",
       "venue": "",
       "dateRange": "2026.11.22",
       "category": "concert",
       "url": "https://starto.jp/s/p/live/10499",
-      "source": "https://starto.jp/s/p/live?ct=concert"
-    },
-    {
-      "event": "2026.07.11 -",
-      "artist": "なにわ男子 LIVE TOUR 2026 「ND⁵」 なにわ男子",
-      "venue": "",
-      "dateRange": "2026.10.28",
-      "category": "concert",
-      "url": "https://starto.jp/s/p/live/10489",
       "source": "https://starto.jp/s/p/live?ct=concert"
     },
     {
