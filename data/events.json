@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T15:44:13.282017+00:00",
+  "updatedAt": "2026-10-29T03:40:20.477866+00:00",
   "source": "https://starto.jp/s/p/live",
   "events": [
     {
@@ -100,6 +100,15 @@
       "category": "concert",
       "url": "https://starto.jp/s/p/live/10499",
       "source": "https://starto.jp/s/p/live?ct=concert"
+    },
+    {
+      "event": "2027.01.30 -",
+      "artist": "ステージ 主演：安田章大",
+      "venue": "",
+      "dateRange": "2027.03.28",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10612",
+      "source": "https://starto.jp/s/p/live?ct=stage"
     },
     {
       "event": "2026.12.04 -",
@@ -216,15 +225,6 @@
       "dateRange": "2027.02.26",
       "category": "stage",
       "url": "https://starto.jp/s/p/live/10584",
-      "source": "https://starto.jp/s/p/live?ct=stage"
-    },
-    {
-      "event": "2027.01 - 2027.03 STAGE ステージ 主演：安田章大",
-      "artist": "",
-      "venue": "",
-      "dateRange": "",
-      "category": "stage",
-      "url": "https://starto.jp/s/p/live/10583",
       "source": "https://starto.jp/s/p/live?ct=stage"
     },
     {
