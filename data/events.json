@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T03:41:24.976119+00:00",
+  "updatedAt": "2026-10-30T15:43:23.715397+00:00",
   "source": "https://starto.jp/s/p/live",
   "events": [
     {
@@ -288,15 +288,6 @@
       "dateRange": "2026.11.26",
       "category": "stage",
       "url": "https://starto.jp/s/p/live/10570",
-      "source": "https://starto.jp/s/p/live?ct=stage"
-    },
-    {
-      "event": "2026.10.28 -",
-      "artist": "THE RE:BORN CHASING DISCOTHEQUE LIVE 出演：草間リチャード敬太",
-      "venue": "",
-      "dateRange": "2026.10.30",
-      "category": "stage",
-      "url": "https://starto.jp/s/p/live/10567",
       "source": "https://starto.jp/s/p/live?ct=stage"
     },
     {
