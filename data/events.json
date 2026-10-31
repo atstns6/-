@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T15:43:23.715397+00:00",
+  "updatedAt": "2026-10-31T15:28:24.293851+00:00",
   "source": "https://starto.jp/s/p/live",
   "events": [
     {
@@ -360,15 +360,6 @@
       "dateRange": "2026.12.22",
       "category": "stage",
       "url": "https://starto.jp/s/p/live/10525",
-      "source": "https://starto.jp/s/p/live?ct=stage"
-    },
-    {
-      "event": "2026.10.03 -",
-      "artist": "リーディングドラマ「すぐ死ぬんだから」 出演：長野博",
-      "venue": "",
-      "dateRange": "2026.10.31",
-      "category": "stage",
-      "url": "https://starto.jp/s/p/live/10518",
       "source": "https://starto.jp/s/p/live?ct=stage"
     },
     {
