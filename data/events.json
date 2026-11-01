@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T21:29:08.620896+00:00",
+  "updatedAt": "2026-11-01T15:28:38.715533+00:00",
   "source": "https://starto.jp/s/p/live",
   "events": [
     {
@@ -63,15 +63,6 @@
       "dateRange": "2027.02.23",
       "category": "concert",
       "url": "https://starto.jp/s/p/live/10594",
-      "source": "https://starto.jp/s/p/live?ct=concert"
-    },
-    {
-      "event": "2026.10.31 -",
-      "artist": "KAMIGATA EXPO PARK FES 2026 SUPER EIGHT なにわ男子 Aぇ! group 関西ジュニア",
-      "venue": "",
-      "dateRange": "2026.11.01",
-      "category": "concert",
-      "url": "https://starto.jp/s/p/live/10587",
       "source": "https://starto.jp/s/p/live?ct=concert"
     },
     {
