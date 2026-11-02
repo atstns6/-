@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T15:28:38.715533+00:00",
+  "updatedAt": "2026-11-02T07:09:58.540708+00:00",
   "source": "https://starto.jp/s/p/live",
   "events": [
     {
@@ -109,6 +109,15 @@
       "category": "concert",
       "url": "https://starto.jp/s/p/live/10499",
       "source": "https://starto.jp/s/p/live?ct=concert"
+    },
+    {
+      "event": "2027.04.02 -",
+      "artist": "見えざる手 主演：中島裕翔",
+      "venue": "",
+      "dateRange": "2027.04.29",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10620",
+      "source": "https://starto.jp/s/p/live?ct=stage"
     },
     {
       "event": "2027.01.30 -",
