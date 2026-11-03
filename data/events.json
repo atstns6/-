@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T07:09:58.540708+00:00",
+  "updatedAt": "2026-11-03T15:43:43.994722+00:00",
   "source": "https://starto.jp/s/p/live",
   "events": [
     {
@@ -315,15 +315,6 @@
       "dateRange": "2026.12.06",
       "category": "stage",
       "url": "https://starto.jp/s/p/live/10554",
-      "source": "https://starto.jp/s/p/live?ct=stage"
-    },
-    {
-      "event": "2026.10.11 -",
-      "artist": "兄おとうと 出演：岡本圭人",
-      "venue": "",
-      "dateRange": "2026.11.03",
-      "category": "stage",
-      "url": "https://starto.jp/s/p/live/10558",
       "source": "https://starto.jp/s/p/live?ct=stage"
     },
     {
