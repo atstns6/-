@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T15:43:43.994722+00:00",
+  "updatedAt": "2026-11-08T06:48:48.731543+00:00",
   "source": "https://starto.jp/s/p/live",
   "events": [
     {
@@ -109,6 +109,15 @@
       "category": "concert",
       "url": "https://starto.jp/s/p/live/10499",
       "source": "https://starto.jp/s/p/live?ct=concert"
+    },
+    {
+      "event": "2027.02.21 -",
+      "artist": "夜中に犬に起こった奇妙な事件 主演：長尾謙杜",
+      "venue": "",
+      "dateRange": "2027.03.28",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10622",
+      "source": "https://starto.jp/s/p/live?ct=stage"
     },
     {
       "event": "2027.04.02 -",
