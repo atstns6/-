@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T06:48:48.731543+00:00",
+  "updatedAt": "2026-11-08T15:28:35.238411+00:00",
   "source": "https://starto.jp/s/p/live",
   "events": [
     {
@@ -378,15 +378,6 @@
       "dateRange": "2026.11.15",
       "category": "stage",
       "url": "https://starto.jp/s/p/live/10492",
-      "source": "https://starto.jp/s/p/live?ct=stage"
-    },
-    {
-      "event": "2026.10.24 -",
-      "artist": "メイユール・ソワレ～最高の夜公演～ 主演：越岡裕貴",
-      "venue": "",
-      "dateRange": "2026.11.08",
-      "category": "stage",
-      "url": "https://starto.jp/s/p/live/10488",
       "source": "https://starto.jp/s/p/live?ct=stage"
     },
     {
