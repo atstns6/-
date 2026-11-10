@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T15:28:35.238411+00:00",
+  "updatedAt": "2026-11-10T15:41:20.578331+00:00",
   "source": "https://starto.jp/s/p/live",
   "events": [
     {
@@ -342,24 +342,6 @@
       "dateRange": "2026.11.15",
       "category": "stage",
       "url": "https://starto.jp/s/p/live/10542",
-      "source": "https://starto.jp/s/p/live?ct=stage"
-    },
-    {
-      "event": "2026.10.06 -",
-      "artist": "ノッキンオン・ロックドドア THE STAGE 主演：上田竜也 川島如恵留",
-      "venue": "",
-      "dateRange": "2026.11.10",
-      "category": "stage",
-      "url": "https://starto.jp/s/p/live/10539",
-      "source": "https://starto.jp/s/p/live?ct=stage"
-    },
-    {
-      "event": "2026.09.27 -",
-      "artist": "water 主演：丸山隆平",
-      "venue": "",
-      "dateRange": "2026.11.10",
-      "category": "stage",
-      "url": "https://starto.jp/s/p/live/10536",
       "source": "https://starto.jp/s/p/live?ct=stage"
     },
     {
