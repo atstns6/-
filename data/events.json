@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T15:53:19.164535+00:00",
+  "updatedAt": "2026-11-13T03:48:14.855238+00:00",
   "source": "https://starto.jp/s/p/live",
   "events": [
     {
@@ -109,6 +109,15 @@
       "category": "concert",
       "url": "https://starto.jp/s/p/live/10499",
       "source": "https://starto.jp/s/p/live?ct=concert"
+    },
+    {
+      "event": "2026.10.18 -",
+      "artist": "ミュージカル『ミス・サイゴン』 出演：桐山照史",
+      "venue": "",
+      "dateRange": "2027.01.24",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10626",
+      "source": "https://starto.jp/s/p/live?ct=stage"
     },
     {
       "event": "2027.02.21 -",
@@ -360,15 +369,6 @@
       "dateRange": "2026.11.15",
       "category": "stage",
       "url": "https://starto.jp/s/p/live/10492",
-      "source": "https://starto.jp/s/p/live?ct=stage"
-    },
-    {
-      "event": "2026.10.16 -",
-      "artist": "ミュージカル『ミス・サイゴン』 出演：桐山照史",
-      "venue": "",
-      "dateRange": "2027.01.24",
-      "category": "stage",
-      "url": "https://starto.jp/s/p/live/10353",
       "source": "https://starto.jp/s/p/live?ct=stage"
     },
     {
