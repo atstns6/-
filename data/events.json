@@ -1,7 +1,16 @@
 {
-  "updatedAt": "2026-11-13T03:48:14.855238+00:00",
+  "updatedAt": "2026-11-14T03:44:45.950788+00:00",
   "source": "https://starto.jp/s/p/live",
   "events": [
+    {
+      "event": "2027.03.13 -",
+      "artist": "King & Prince LIVE TOUR 2027 King ＆ Prince",
+      "venue": "",
+      "dateRange": "2027.08.04",
+      "category": "concert",
+      "url": "https://starto.jp/s/p/live/10625",
+      "source": "https://starto.jp/s/p/live?ct=concert"
+    },
     {
       "event": "2027.07.22 -",
       "artist": "A.B.C-Z CONNECTION Vol.3 A.B.C-Z",
@@ -9,15 +18,6 @@
       "dateRange": "2027.08.14",
       "category": "concert",
       "url": "https://starto.jp/s/p/live/10619",
-      "source": "https://starto.jp/s/p/live?ct=concert"
-    },
-    {
-      "event": "2027.03 CONCERT King & Prince LIVE TOUR 2027 King ＆ Prince",
-      "artist": "",
-      "venue": "",
-      "dateRange": "",
-      "category": "concert",
-      "url": "https://starto.jp/s/p/live/10613",
       "source": "https://starto.jp/s/p/live?ct=concert"
     },
     {
