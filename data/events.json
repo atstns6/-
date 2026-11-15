@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T03:44:45.950788+00:00",
+  "updatedAt": "2026-11-15T15:33:37.255051+00:00",
   "source": "https://starto.jp/s/p/live",
   "events": [
     {
@@ -318,15 +318,6 @@
       "source": "https://starto.jp/s/p/live?ct=stage"
     },
     {
-      "event": "2026.10.29 -",
-      "artist": "室三兄弟舞台『ムロ家のアカンタレ』 出演：室龍太",
-      "venue": "",
-      "dateRange": "2026.11.15",
-      "category": "stage",
-      "url": "https://starto.jp/s/p/live/10560",
-      "source": "https://starto.jp/s/p/live?ct=stage"
-    },
-    {
       "event": "2026.11.06 -",
       "artist": "ロックンロール 主演：小瀧望",
       "venue": "",
@@ -345,30 +336,12 @@
       "source": "https://starto.jp/s/p/live?ct=stage"
     },
     {
-      "event": "2026.10.13 -",
-      "artist": "世界の終わりかけとスリーコード 主演：井ノ原快彦",
-      "venue": "",
-      "dateRange": "2026.11.15",
-      "category": "stage",
-      "url": "https://starto.jp/s/p/live/10542",
-      "source": "https://starto.jp/s/p/live?ct=stage"
-    },
-    {
       "event": "2026.09.11 -",
       "artist": "朗読会『葉葉葉』-裸足であがる- 作・演出・出演：戸塚祥太",
       "venue": "",
       "dateRange": "2026.12.22",
       "category": "stage",
       "url": "https://starto.jp/s/p/live/10525",
-      "source": "https://starto.jp/s/p/live?ct=stage"
-    },
-    {
-      "event": "2026.09.08 -",
-      "artist": "ミュージカル『ファニー・ガール』 出演：坂本昌行",
-      "venue": "",
-      "dateRange": "2026.11.15",
-      "category": "stage",
-      "url": "https://starto.jp/s/p/live/10492",
       "source": "https://starto.jp/s/p/live?ct=stage"
     },
     {
