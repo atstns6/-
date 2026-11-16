@@ -1,7 +1,16 @@
 {
-  "updatedAt": "2026-11-15T15:33:37.255051+00:00",
+  "updatedAt": "2026-11-16T04:01:45.915176+00:00",
   "source": "https://starto.jp/s/p/live",
   "events": [
+    {
+      "event": "CONCERT 1'MM AHEAD SixTONES",
+      "artist": "",
+      "venue": "",
+      "dateRange": "",
+      "category": "concert",
+      "url": "https://starto.jp/s/p/live/10627",
+      "source": "https://starto.jp/s/p/live?ct=concert"
+    },
     {
       "event": "2027.03.13 -",
       "artist": "King & Prince LIVE TOUR 2027 King ＆ Prince",
