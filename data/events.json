@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T04:01:45.915176+00:00",
+  "updatedAt": "2026-11-17T03:48:37.490039+00:00",
   "source": "https://starto.jp/s/p/live",
   "events": [
     {
@@ -118,6 +118,15 @@
       "category": "concert",
       "url": "https://starto.jp/s/p/live/10499",
       "source": "https://starto.jp/s/p/live?ct=concert"
+    },
+    {
+      "event": "2027.02.20 -",
+      "artist": "ブロードウェイミュージカル『ヘドウィグ・アンド・アングリーインチ』 主演：丸山隆平",
+      "venue": "",
+      "dateRange": "2027.03.29",
+      "category": "stage",
+      "url": "https://starto.jp/s/p/live/10628",
+      "source": "https://starto.jp/s/p/live?ct=stage"
     },
     {
       "event": "2026.10.18 -",
