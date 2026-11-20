@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T03:48:37.490039+00:00",
+  "updatedAt": "2026-11-20T19:46:20.116482+00:00",
   "source": "https://starto.jp/s/p/live",
   "events": [
     {
@@ -342,15 +342,6 @@
       "dateRange": "2026.12.06",
       "category": "stage",
       "url": "https://starto.jp/s/p/live/10554",
-      "source": "https://starto.jp/s/p/live?ct=stage"
-    },
-    {
-      "event": "2026.09.28 -",
-      "artist": "髪結いの亭主 主演：安田章大",
-      "venue": "",
-      "dateRange": "2026.11.20",
-      "category": "stage",
-      "url": "https://starto.jp/s/p/live/10547",
       "source": "https://starto.jp/s/p/live?ct=stage"
     },
     {
