@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T19:13:35.457082+00:00",
+  "updatedAt": "2026-11-23T23:46:42.431817+00:00",
   "source": "https://starto.jp/s/p/live",
   "events": [
     {
@@ -99,15 +99,6 @@
       "dateRange": "2026.11.24",
       "category": "concert",
       "url": "https://starto.jp/s/p/live/10565",
-      "source": "https://starto.jp/s/p/live?ct=concert"
-    },
-    {
-      "event": "2026.09.05 -",
-      "artist": "TAKUYA KIMURA Live Tour 2026 Checkpoint 木村拓哉",
-      "venue": "",
-      "dateRange": "2026.11.23",
-      "category": "concert",
-      "url": "https://starto.jp/s/p/live/10520",
       "source": "https://starto.jp/s/p/live?ct=concert"
     },
     {
