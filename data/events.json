@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T23:46:42.431817+00:00",
+  "updatedAt": "2026-11-24T22:05:02.858634+00:00",
   "source": "https://starto.jp/s/p/live",
   "events": [
     {
@@ -90,15 +90,6 @@
       "dateRange": "2026.11.28",
       "category": "concert",
       "url": "https://starto.jp/s/p/live/10569",
-      "source": "https://starto.jp/s/p/live?ct=concert"
-    },
-    {
-      "event": "2026.10.14 -",
-      "artist": "A.B.C-Z Concert Tour 2026 The Way of L.O.V-E A.B.C-Z",
-      "venue": "",
-      "dateRange": "2026.11.24",
-      "category": "concert",
-      "url": "https://starto.jp/s/p/live/10565",
       "source": "https://starto.jp/s/p/live?ct=concert"
     },
     {
